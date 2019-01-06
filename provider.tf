@@ -1,4 +1,7 @@
-provider "aws" {}
+provider "aws" {
+  //region = "us-west-1"
+}
+
 terraform {
   required_verion = "0.11.11"
 

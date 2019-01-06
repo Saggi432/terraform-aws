@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "main" {
   acl    = "private"
 
   tags   = "${local.s3_tags}"
-  region = "${var.s3_region}"
+  region = "us-east-1"
 
   server_side_encryption_configuration {
     rule {
@@ -19,7 +19,7 @@ resource "aws_s3_bucket" "anotherbucket" {
   acl    = "private"
 
   tags   = "${local.s3_tags}"
-  region = "${var.s3_region}"
+  region = "us-east-1"
 
   server_side_encryption_configuration {
     rule {
