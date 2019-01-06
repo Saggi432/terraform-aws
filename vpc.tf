@@ -1,4 +1,4 @@
-variable "cidr_block" {
+/*variable "cidr_block" {
   type        = "string"
   description = "VPC cidr block. Example: 10.0.0.0/16"
 }
@@ -17,4 +17,4 @@ resource "aws_internet_gateway" "main" {
   tags = {
     Name = "main"
   }
-}
+}*/
